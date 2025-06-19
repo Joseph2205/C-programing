@@ -1,0 +1,17 @@
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int main() {
+    int w,x,y;
+    scanf("%d %d %d",&w,&x,&y);
+    int gain = w*x;
+    int spent  = (w*y)+100;
+    int profit = gain - spent;
+    printf("%d",profit);
+    return 0;
+}
