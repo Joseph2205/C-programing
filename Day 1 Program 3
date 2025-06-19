@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int a;
+    scanf("%d\n",&a);
+    printf("Integer is %d\n",a);
+    float b;
+    scanf("%f\n",&b);
+    printf("Float is %.2f\n",b);
+    char c;
+    scanf("%c\n",&c);
+    printf("Character is %c\n",c);
+    char d[50], e[50];
+        scanf("%s\n",d);
+     scanf("%[^\n]s\n",e);
+    printf("Strings are %s and %s",d,e);
+    
+   
+    return 0;
+}
