@@ -9,7 +9,7 @@ int main() {
     scanf("%d",&a);
     temp = a;
 
-    // Loop to find sum of digits
+    
     while (temp > 0) {
         int b = temp%10;
         sum = sum+b;
